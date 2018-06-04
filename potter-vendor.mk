@@ -144,8 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/potter/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/motorola/potter/proprietary/vendor/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libdtvtuner.so:system/vendor/lib/libdtvtuner.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libdtvtuner.so:system/vendor/lib64/libdtvtuner.so \
     vendor/motorola/potter/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
     vendor/motorola/potter/proprietary/vendor/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/potter/proprietary/vendor/lib/libjustshoot.so:system/lib/libjustshoot.so \
@@ -1137,8 +1135,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/libGLESv1_CM_adreno.so:system/vendor/lib64/libGLESv1_CM_adreno.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libGLESv2_adreno.so:system/vendor/lib64/libGLESv2_adreno.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libq3dtools_adreno.so:system/vendor/lib64/libq3dtools_adreno.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libdtvhal.so:system/vendor/lib/libdtvhal.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libdtvhal.so:system/vendor/lib64/libdtvhal.so \
     vendor/motorola/potter/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:system/vendor/lib64/mediadrm/libwvdrmengine.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libadropbox.so:system/vendor/lib64/libadropbox.so \
     vendor/motorola/potter/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
@@ -1223,7 +1219,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/lib64/libcamera2ndk.so:/system/lib64/libcamera2ndk.so \
     vendor/motorola/potter/proprietary/lib64/libcamera_client.so:/system/lib64/libcamera_client.so \
     vendor/motorola/potter/proprietary/lib64/libcamera_metadata.so:/system/lib64/libcamera_metadata.so \
-    vendor/motorola/potter/proprietary/lib64/libcameraservice.so:/system/lib64/libcameraservice.so
+    vendor/motorola/potter/proprietary/lib64/libcameraservice.so:/system/lib64/libcameraservice.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libdtvtuner.so:/system/vendor/lib/libdtvtuner.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libdtvtuner.so:/system/vendor/lib64/libdtvtuner.so \
+    vendor/motorola/potter/proprietary/vendor/bin/hw/motorola.hardware.tv@1.0-service:/system/vendor/bin/hw/motorola.hardware.tv@1.0-service \
+    vendor/motorola/potter/proprietary/vendor/etc/init/motorola.hardware.tv@1.0-service.rc:/system/vendor/etc/init/motorola.hardware.tv@1.0-service.rc \
+    vendor/motorola/potter/proprietary/vendor/lib/hw/motorola.hardware.tv@1.0-impl.so:/system/vendor/lib/hw/motorola.hardware.tv@1.0-impl.so \
+    vendor/motorola/potter/proprietary/vendor/lib/motorola.hardware.tv@1.0.so:/system/vendor/lib/motorola.hardware.tv@1.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib/motorola.hardware.tv@1.0_vendor.so:/system/vendor/lib/motorola.hardware.tv@1.0_vendor.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/hw/motorola.hardware.tv@1.0-impl.so:/system/vendor/lib64/hw/motorola.hardware.tv@1.0-impl.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/motorola.hardware.tv@1.0.so:/system/vendor/lib64/motorola.hardware.tv@1.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/motorola.hardware.tv@1.0_vendor.so:/system/vendor/lib64/motorola.hardware.tv@1.0_vendor.so
 
 PRODUCT_PACKAGES += \
     TimeService \
