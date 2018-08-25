@@ -803,7 +803,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/motorola/potter/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/motorola/potter/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/motorola/potter/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/motorola/potter/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/vendor.qti.gnss@1.0-impl.so \
@@ -1219,7 +1218,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so:/system/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so \
     vendor/motorola/potter/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:/system/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/potter/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:/system/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
-
+    vendor/motorola/potter/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libhui.so:system/vendor/lib64/libhui.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libux.so:system/vendor/lib64/libux.so \
+    vendor/motorola/potter/proprietary/lib64/android.hardware.gnss@8.0.so:system/lib64/android.hardware.gnss@8.0.so
 
 PRODUCT_PACKAGES += \
     TimeService \
