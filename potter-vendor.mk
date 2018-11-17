@@ -1230,7 +1230,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/motorola.hardware.tv@1.0_vendor.so:/system/vendor/lib/motorola.hardware.tv@1.0_vendor.so \
     vendor/motorola/potter/proprietary/vendor/lib64/hw/motorola.hardware.tv@1.0-impl.so:/system/vendor/lib64/hw/motorola.hardware.tv@1.0-impl.so \
     vendor/motorola/potter/proprietary/vendor/lib64/motorola.hardware.tv@1.0.so:/system/vendor/lib64/motorola.hardware.tv@1.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/motorola.hardware.tv@1.0_vendor.so:/system/vendor/lib64/motorola.hardware.tv@1.0_vendor.so
+    vendor/motorola/potter/proprietary/vendor/lib64/motorola.hardware.tv@1.0_vendor.so:/system/vendor/lib64/motorola.hardware.tv@1.0_vendor.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libI420colorconvert.so:/system/vendor/lib64/libI420colorconvert.so
 
 PRODUCT_PACKAGES += \
     TimeService \
