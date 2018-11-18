@@ -1230,7 +1230,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/motorola.hardware.tv@1.0_vendor.so:/system/vendor/lib/motorola.hardware.tv@1.0_vendor.so \
     vendor/motorola/potter/proprietary/vendor/lib64/hw/motorola.hardware.tv@1.0-impl.so:/system/vendor/lib64/hw/motorola.hardware.tv@1.0-impl.so \
     vendor/motorola/potter/proprietary/vendor/lib64/motorola.hardware.tv@1.0.so:/system/vendor/lib64/motorola.hardware.tv@1.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/motorola.hardware.tv@1.0_vendor.so:/system/vendor/lib64/motorola.hardware.tv@1.0_vendor.so
+    vendor/motorola/potter/proprietary/vendor/lib64/motorola.hardware.tv@1.0_vendor.so:/system/vendor/lib64/motorola.hardware.tv@1.0_vendor.so \
+    vendor/motorola/potter/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so \
+    vendor/motorola/potter/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so
+
 
 PRODUCT_PACKAGES += \
     TimeService \
