@@ -1240,6 +1240,61 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/motorola.hardware.tv@1.0_vendor.so:/system/vendor/lib64/motorola.hardware.tv@1.0_vendor.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libI420colorconvert.so:/system/vendor/lib64/libI420colorconvert.so
 
+# WFD
+PRODUCT_COPY_FILES += \
+     vendor/motorola/potter/proprietary/bin/wfdservice:system/bin/wfdservice \
+     vendor/motorola/potter/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
+     vendor/motorola/potter/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
+     vendor/motorola/potter/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
+     vendor/motorola/potter/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+     vendor/motorola/potter/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
+     vendor/motorola/potter/proprietary/lib/libaacwrapper.so:system/lib/libaacwrapper.so \
+     vendor/motorola/potter/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
+     vendor/motorola/potter/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+     vendor/motorola/potter/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+     vendor/motorola/potter/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
+     vendor/motorola/potter/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
+     vendor/motorola/potter/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+     vendor/motorola/potter/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
+     vendor/motorola/potter/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
+     vendor/motorola/potter/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
+     vendor/motorola/potter/proprietary/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
+     vendor/motorola/potter/proprietary/lib/libwfdconfigutils.so:system/lib/libwfdconfigutils.so \
+     vendor/motorola/potter/proprietary/lib/libwfdmminterface.so:system/lib/libwfdmminterface.so \
+     vendor/motorola/potter/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
+     vendor/motorola/potter/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
+     vendor/motorola/potter/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
+     vendor/motorola/potter/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
+     vendor/motorola/potter/proprietary/lib/libwfdservice.so:system/lib/libwfdservice.so \
+     vendor/motorola/potter/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
+     vendor/motorola/potter/proprietary/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
+     vendor/motorola/potter/proprietary/lib/libwfduibcsink.so:system/lib/libwfduibcsink.so \
+     vendor/motorola/potter/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
+     vendor/motorola/potter/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
+     vendor/motorola/potter/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
+     vendor/motorola/potter/proprietary/lib64/extractors/libmmparser.so:system/lib64/extractors/libmmparser.so \
+     vendor/motorola/potter/proprietary/lib64/libaacwrapper.so:system/lib64/libaacwrapper.so \
+     vendor/motorola/potter/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
+     vendor/motorola/potter/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
+     vendor/motorola/potter/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
+     vendor/motorola/potter/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
+     vendor/motorola/potter/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
+     vendor/motorola/potter/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
+     vendor/motorola/potter/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
+     vendor/motorola/potter/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
+     vendor/motorola/potter/proprietary/vendor/bin/wifidisplayhalservice:/system/vendor/bin/wifidisplayhalservice \
+     vendor/motorola/potter/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:/system/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
+     vendor/motorola/potter/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:/system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
+     vendor/motorola/potter/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:/system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+     vendor/motorola/potter/proprietary/vendor/lib/libmmosal_proprietary.so:/system/vendor/lib/libmmosal_proprietary.so \
+     vendor/motorola/potter/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:/system/vendor/lib/libwfdcommonutils_proprietary.so \
+     vendor/motorola/potter/proprietary/vendor/lib/libwfdhaldsmanager.so:/system/vendor/lib/libwfdhaldsmanager.so \
+     vendor/motorola/potter/proprietary/vendor/lib/libwfdmmservice.so:/system/vendor/lib/libwfdmmservice.so \
+     vendor/motorola/potter/proprietary/vendor/lib/libwfdmodulehdcpsession.so:/system/vendor/lib/libwfdmodulehdcpsession.so \
+     vendor/motorola/potter/proprietary/vendor/lib64/libmmosal_proprietary.so:/system/vendor/lib64/libmmosal_proprietary.so \
+     vendor/motorola/potter/proprietary/vendor/lib64/libwfdhdcpcp.so:/system/vendor/lib64/libwfdhdcpcp.so
+
+
 PRODUCT_PACKAGES += \
     TimeService \
     embms \
@@ -1270,6 +1325,8 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleCS47L35 \
     QtiTelephonyService \
     CNEService \
-    libbtnv
+    libbtnv \
+    WfdService \
+    WfdCommon
 
 
