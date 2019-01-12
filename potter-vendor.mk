@@ -1194,6 +1194,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/motorola/potter/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/motorola/potter/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/motorola/potter/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/motorola/potter/proprietary/vendor/lib64/libsensorndkbridge.so:system/vendor/lib64/libsensorndkbridge.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libsdm-disp-apis.so:system/vendor/lib64/libsdm-disp-apis.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libskia.so:system/vendor/lib64/libskia.so \
