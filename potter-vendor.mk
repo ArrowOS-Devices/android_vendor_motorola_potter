@@ -109,16 +109,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat \
     vendor/motorola/potter/proprietary/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat \
     vendor/motorola/potter/proprietary/etc/permissions/cneapiclient.xml:system/vendor/etc/permissions/cneapiclient.xml \
-    vendor/motorola/potter/proprietary/etc/permissions/com.qti.location.sdk.xml:system/vendor/etc/permissions/com.qti.location.sdk.xml \
     vendor/motorola/potter/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/motorola/potter/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/vendor/etc/permissions/com.qualcomm.location.vzw_library.xml \
-    vendor/motorola/potter/proprietary/etc/permissions/com.qualcomm.location.xml:system/vendor/etc/permissions/com.qualcomm.location.xml \
     vendor/motorola/potter/proprietary/etc/permissions/embms.xml:system/vendor/etc/permissions/embms.xml \
     vendor/motorola/potter/proprietary/etc/permissions/ims.xml:system/vendor/etc/permissions/ims.xml \
     vendor/motorola/potter/proprietary/etc/permissions/imscm.xml:system/vendor/etc/permissions/imscm.xml \
     vendor/motorola/potter/proprietary/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/motorola/potter/proprietary/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
-    vendor/motorola/potter/proprietary/etc/permissions/izat.xt.srv.xml:system/vendor/etc/permissions/izat.xt.srv.xml \
     vendor/motorola/potter/proprietary/etc/permissions/privapp-permissions-com.qualcomm.atfwd.xml:system/etc/permissions/privapp-permissions-com.qualcomm.atfwd.xml \
     vendor/motorola/potter/proprietary/etc/permissions/com.motorola.cameraone.xml:system/vendor/etc/permissions/com.motorola.cameraone.xml \
     vendor/motorola/potter/proprietary/etc/permissions/cneapiclient.xml:system/vendor/etc/permissions/cneapiclient.xml \
@@ -790,11 +786,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/motorola/potter/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/motorola/potter/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
-    vendor/motorola/potter/proprietary/lib64/vendor.qti.gnss@1.1.so:system/lib64/vendor.qti.gnss@1.1.so \
-    vendor/motorola/potter/proprietary/lib64/vendor.qti.gnss@1.2.so:system/lib64/vendor.qti.gnss@1.2.so \
-    vendor/motorola/potter/proprietary/lib64/vendor.qti.gnss@2.0.so:system/lib64/vendor.qti.gnss@2.0.so \
-    vendor/motorola/potter/proprietary/lib64/vendor.qti.gnss@2.1.so:system/lib64/vendor.qti.gnss@2.1.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:system/vendor/lib64/vendor.qti.gnss@1.0.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.gnss@1.1.so:system/vendor/lib64/vendor.qti.gnss@1.1.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.gnss@1.2.so:system/vendor/lib64/vendor.qti.gnss@1.2.so \
@@ -1180,9 +1171,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
     vendor/motorola/potter/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/motorola/potter/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
-    vendor/motorola/potter/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
-    vendor/motorola/potter/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/motorola/potter/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
     vendor/motorola/potter/proprietary/vendor/lib/motcamera.device@1.0-impl.so:/system/vendor/lib/motcamera.device@1.0-impl.so \
