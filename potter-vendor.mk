@@ -1174,59 +1174,50 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/motorola/potter/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
-    vendor/motorola/potter/proprietary/vendor/lib/motcamera.device@1.0-impl.so:/system/vendor/lib/motcamera.device@1.0-impl.so \
-    vendor/motorola/potter/proprietary/vendor/lib/motorola.hardware.camera.device@1.0.so:/system/vendor/lib/motorola.hardware.camera.device@1.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so:/system/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so \
-    vendor/motorola/potter/proprietary/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so:/system/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so \
-    vendor/motorola/potter/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4.so:/system/vendor/lib/motorola.hardware.camera.provider@2.4.so \
-    vendor/motorola/potter/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so:/system/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so \
-    vendor/motorola/potter/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:/system/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service \
-    vendor/motorola/potter/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:/system/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
-    vendor/motorola/potter/proprietary/lib/libcamera2ndk.so:/system/lib/libcamera2ndk.so \
-    vendor/motorola/potter/proprietary/lib/libcamera_client.so:/system/lib/libcamera_client.so \
-    vendor/motorola/potter/proprietary/lib/libcamera_metadata.so:/system/lib/libcamera_metadata.so \
-    vendor/motorola/potter/proprietary/lib/libcameraservice.so:/system/lib/libcameraservice.so \
-    vendor/motorola/potter/proprietary/lib64/libcamera2ndk.so:/system/lib64/libcamera2ndk.so \
-    vendor/motorola/potter/proprietary/lib64/libcamera_client.so:/system/lib64/libcamera_client.so \
-    vendor/motorola/potter/proprietary/lib64/libcamera_metadata.so:/system/lib64/libcamera_metadata.so \
-    vendor/motorola/potter/proprietary/lib64/libcameraservice.so:/system/lib64/libcameraservice.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libI420colorconvert.so:/system/vendor/lib64/libI420colorconvert.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:/system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so \
-    vendor/motorola/potter/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:/system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
-    vendor/motorola/potter/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:/system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
-    vendor/motorola/potter/proprietary/vendor/lib64/libqti-perfd-client_system.so:/system/vendor/lib64/libqti-perfd-client_system.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libqti-util_system.so:/system/vendor/lib64/libqti-util_system.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libqti-util_system.so:/system/vendor/lib64/libqti-util_system.so \
-    vendor/motorola/potter/proprietary/bin/perfservice:/system/bin/perfservice \
-    vendor/motorola/potter/proprietary/etc/init/perfservice.rc:/system/etc/init/perfservice.rc \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:/system/vendor/lib64/vendor.qti.hardware.perf@1.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:/system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:/system/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so:/system/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.data.connection@1.0.so:/system/vendor/lib64/vendor.qti.hardware.data.connection@1.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so:/system/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:/system/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so:/system/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so:/system/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:/system/vendor/lib64/vendor.qti.ims.callinfo@1.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so:/system/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/lib-imsrcs-v2.so:/system/vendor/lib64/lib-imsrcs-v2.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/lib-imsrcsbaseimpl.so:/system/vendor/lib64/lib-imsrcsbaseimpl.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/lib-siputility.so:/system/vendor/lib64/lib-siputility.so \
-    vendor/motorola/potter/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:/system/vendor/etc/init/android.hardware.sensors@1.0-service.rc \
-    vendor/motorola/potter/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.clearkey:/system/vendor/bin/hw/android.hardware.drm@1.1-service.clearkey \
-    vendor/motorola/potter/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc:/system/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc \
-    vendor/motorola/potter/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:/system/vendor/bin/hw/android.hardware.drm@1.1-service.widevine \
-    vendor/motorola/potter/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:/system/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc \
-    vendor/motorola/potter/proprietary/vendor/lib/libcpion.so:/system/vendor/lib/libcpion.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libcpion.so:/system/vendor/lib64/libcpion.so \
-    vendor/motorola/potter/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libhdcpsrm.so:/system/vendor/lib/libhdcpsrm.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libhdcpsrm.so:/system/vendor/lib64/libhdcpsrm.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libwvhidl.so:/system/vendor/lib64/libwvhidl.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.2.so:/system/vendor/lib64/vendor.display.config@1.2.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.3.so:/system/vendor/lib64/vendor.display.config@1.3.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.4.so:/system/vendor/lib64/vendor.display.config@1.4.so
+    vendor/motorola/potter/proprietary/vendor/lib/motcamera.device@1.0-impl.so:system/vendor/lib/motcamera.device@1.0-impl.so \
+    vendor/motorola/potter/proprietary/vendor/lib/motorola.hardware.camera.device@1.0.so:system/vendor/lib/motorola.hardware.camera.device@1.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so:system/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so \
+    vendor/motorola/potter/proprietary/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so:system/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so \
+    vendor/motorola/potter/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4.so:system/vendor/lib/motorola.hardware.camera.provider@2.4.so \
+    vendor/motorola/potter/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so:system/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so \
+    vendor/motorola/potter/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:system/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service \
+    vendor/motorola/potter/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:system/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
+    vendor/motorola/potter/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/motorola/potter/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
+    vendor/motorola/potter/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
+    vendor/motorola/potter/proprietary/vendor/lib64/libqti-perfd-client_system.so:system/vendor/lib64/libqti-perfd-client_system.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libqti-util_system.so:system/vendor/lib64/libqti-util_system.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libqti-util_system.so:system/vendor/lib64/libqti-util_system.so \
+    vendor/motorola/potter/proprietary/bin/perfservice:system/bin/perfservice \
+    vendor/motorola/potter/proprietary/etc/init/perfservice.rc:system/etc/init/perfservice.rc \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.data.connection@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.connection@1.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so:system/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:system/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so:system/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so:system/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:system/vendor/lib64/vendor.qti.ims.callinfo@1.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so:system/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/lib-imsrcs-v2.so:system/vendor/lib64/lib-imsrcs-v2.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/lib-imsrcsbaseimpl.so:system/vendor/lib64/lib-imsrcsbaseimpl.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/lib-siputility.so:system/vendor/lib64/lib-siputility.so \
+    vendor/motorola/potter/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.clearkey:system/vendor/bin/hw/android.hardware.drm@1.1-service.clearkey \
+    vendor/motorola/potter/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc:system/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc \
+    vendor/motorola/potter/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.1-service.widevine \
+    vendor/motorola/potter/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc \
+    vendor/motorola/potter/proprietary/vendor/lib/libcpion.so:system/vendor/lib/libcpion.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libcpion.so:system/vendor/lib64/libcpion.so \
+    vendor/motorola/potter/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/motorola/potter/proprietary/vendor/lib/libhdcpsrm.so:system/vendor/lib/libhdcpsrm.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libhdcpsrm.so:system/vendor/lib64/libhdcpsrm.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libwvhidl.so:system/vendor/lib64/libwvhidl.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.2.so:system/vendor/lib64/vendor.display.config@1.2.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.3.so:system/vendor/lib64/vendor.display.config@1.3.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.4.so:system/vendor/lib64/vendor.display.config@1.4.so
 
 # WFD
 PRODUCT_COPY_FILES += \
@@ -1268,18 +1259,18 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/potter/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
      vendor/motorola/potter/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
      vendor/motorola/potter/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
-     vendor/motorola/potter/proprietary/vendor/bin/wifidisplayhalservice:/system/vendor/bin/wifidisplayhalservice \
-     vendor/motorola/potter/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:/system/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
-     vendor/motorola/potter/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:/system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
-     vendor/motorola/potter/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:/system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
-     vendor/motorola/potter/proprietary/vendor/lib/libmmosal_proprietary.so:/system/vendor/lib/libmmosal_proprietary.so \
-     vendor/motorola/potter/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:/system/vendor/lib/libwfdcommonutils_proprietary.so \
-     vendor/motorola/potter/proprietary/vendor/lib/libwfdhaldsmanager.so:/system/vendor/lib/libwfdhaldsmanager.so \
-     vendor/motorola/potter/proprietary/vendor/lib/libwfdmmservice.so:/system/vendor/lib/libwfdmmservice.so \
-     vendor/motorola/potter/proprietary/vendor/lib/libwfdmodulehdcpsession.so:/system/vendor/lib/libwfdmodulehdcpsession.so \
-     vendor/motorola/potter/proprietary/vendor/lib64/libmmosal_proprietary.so:/system/vendor/lib64/libmmosal_proprietary.so \
-     vendor/motorola/potter/proprietary/vendor/lib64/libwfdhdcpcp.so:/system/vendor/lib64/libwfdhdcpcp.so \
-     vendor/motorola/potter/proprietary/vendor/lib/libgui_vendor.so:/system/vendor/lib/libgui_vendor.so \
+     vendor/motorola/potter/proprietary/vendor/bin/wifidisplayhalservice:system/vendor/bin/wifidisplayhalservice \
+     vendor/motorola/potter/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:system/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
+     vendor/motorola/potter/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
+     vendor/motorola/potter/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+     vendor/motorola/potter/proprietary/vendor/lib/libmmosal_proprietary.so:system/vendor/lib/libmmosal_proprietary.so \
+     vendor/motorola/potter/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:system/vendor/lib/libwfdcommonutils_proprietary.so \
+     vendor/motorola/potter/proprietary/vendor/lib/libwfdhaldsmanager.so:system/vendor/lib/libwfdhaldsmanager.so \
+     vendor/motorola/potter/proprietary/vendor/lib/libwfdmmservice.so:system/vendor/lib/libwfdmmservice.so \
+     vendor/motorola/potter/proprietary/vendor/lib/libwfdmodulehdcpsession.so:system/vendor/lib/libwfdmodulehdcpsession.so \
+     vendor/motorola/potter/proprietary/vendor/lib64/libmmosal_proprietary.so:system/vendor/lib64/libmmosal_proprietary.so \
+     vendor/motorola/potter/proprietary/vendor/lib64/libwfdhdcpcp.so:system/vendor/lib64/libwfdhdcpcp.so \
+     vendor/motorola/potter/proprietary/vendor/lib/libgui_vendor.so:system/vendor/lib/libgui_vendor.so \
      vendor/motorola/potter/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
      vendor/motorola/potter/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile15.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile15.xml \
      vendor/motorola/potter/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile16.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile16.xml \
