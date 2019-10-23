@@ -1207,8 +1207,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/lib-imsrcs-v2.so:system/vendor/lib64/lib-imsrcs-v2.so \
     vendor/motorola/potter/proprietary/vendor/lib64/lib-imsrcsbaseimpl.so:system/vendor/lib64/lib-imsrcsbaseimpl.so \
     vendor/motorola/potter/proprietary/vendor/lib64/lib-siputility.so:system/vendor/lib64/lib-siputility.so \
-    vendor/motorola/potter/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.clearkey:system/vendor/bin/hw/android.hardware.drm@1.1-service.clearkey \
-    vendor/motorola/potter/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc:system/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc \
     vendor/motorola/potter/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/motorola/potter/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/motorola/potter/proprietary/vendor/lib/libcpion.so:system/vendor/lib/libcpion.so \
