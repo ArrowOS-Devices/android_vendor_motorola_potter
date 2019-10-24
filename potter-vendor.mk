@@ -1275,7 +1275,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libwfdmodulehdcpsession.so:system/vendor/lib/libwfdmodulehdcpsession.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libmmosal_proprietary.so:system/vendor/lib64/libmmosal_proprietary.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libwfdhdcpcp.so:system/vendor/lib64/libwfdhdcpcp.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libgui_vendor.so:system/vendor/lib/libgui_vendor.so \
     vendor/motorola/potter/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/motorola/potter/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile15.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile15.xml \
     vendor/motorola/potter/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile16.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile16.xml \
