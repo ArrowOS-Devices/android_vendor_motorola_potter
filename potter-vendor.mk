@@ -19,7 +19,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/potter
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/potter/proprietary/bin/charge_only_mode:$(TARGET_COPY_OUT_SYSTEM)/bin/charge_only_mode \
     vendor/motorola/potter/proprietary/bin/ipacm-diag:$(TARGET_COPY_OUT_SYSTEM)/bin/ipacm-diag \
     vendor/motorola/potter/proprietary/bin/perfservice:$(TARGET_COPY_OUT_SYSTEM)/bin/perfservice \
     vendor/motorola/potter/proprietary/bin/ptt_socket_app:$(TARGET_COPY_OUT_SYSTEM)/bin/ptt_socket_app \
