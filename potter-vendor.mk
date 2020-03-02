@@ -92,11 +92,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
     vendor/motorola/potter/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/motorola/potter/proprietary/lib/extractors/libmmparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmmparser.so \
+    vendor/motorola/potter/proprietary/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib/fm_helium.so \
     vendor/motorola/potter/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/motorola/potter/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
     vendor/motorola/potter/proprietary/lib/libadropbox.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libadropbox.so \
     vendor/motorola/potter/proprietary/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_beautyshot.so \
     vendor/motorola/potter/proprietary/lib/libfamily_photo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfamily_photo.so \
+    vendor/motorola/potter/proprietary/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfm-hci.so \
     vendor/motorola/potter/proprietary/lib/libjson.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjson.so \
     vendor/motorola/potter/proprietary/lib/libmdmcutback.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmdmcutback.so \
     vendor/motorola/potter/proprietary/lib/libmemalloc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmemalloc.so \
@@ -133,8 +135,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/motorola/potter/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/motorola/potter/proprietary/lib64/extractors/libmmparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmmparser.so \
+    vendor/motorola/potter/proprietary/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/fm_helium.so \
     vendor/motorola/potter/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
     vendor/motorola/potter/proprietary/lib64/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libOmxMux.so \
+    vendor/motorola/potter/proprietary/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfm-hci.so \
     vendor/motorola/potter/proprietary/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
     vendor/motorola/potter/proprietary/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmparser_lite.so \
     vendor/motorola/potter/proprietary/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpdecoder.so \
